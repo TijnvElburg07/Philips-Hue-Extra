@@ -2,7 +2,7 @@ from phue import Bridge
 import time
 
 def access_lights():
-    b = Bridge('192.168.2.3')
+    b = Bridge('')
     b.connect()
     lights = b.get_light_objects('name')
     return lights
